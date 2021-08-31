@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Steve Yeong</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/311e88a71e.js" crossorigin="anonymous"></script>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/769330991754903582/882228679080570901/icon.png">
+    </head>
+
+    <body>
+        <div id="preloader">
+
+        </div>
+
+        <div class="homepage">
+            <nav>
+                <img src="images/menu.png" class="logo-menu">
+                <img src="images/logo.png" class="logo-img">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+                <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+            </nav>
+
+            <div class="lamp-container">
+                <img src="images/lamp.png" class="lamp">
+                <img src="images/light.png" class="light" id="light">
+            </div>
+
+            <div class="text-container">
+                <h1>Steve Yeong</h1>
+                <p>Experienced Customer Service Representative with a demonstrated history of working in the computer software industry. Skilled in Analytical Skills, Microsoft Excel, Computer Science, Data Analysis, and Big Data. Strong support professional with a Bachelor's of Computer Science (Data Science) focused in Computer Science from Multimedia University.</p>
+                <a href="mailto: inquries@devyeong.com">Connect With Me</a>
+                <div class="control">
+                    <p>04</p>
+                    <div class="line"><span></span></div>
+
+                    <p>05</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row">
+                <div class="col">
+                    <img src="images/logo.png" class="logo">
+                    <p>Wan't to know more about me?Experienced Customer Service Representative with a demonstrated history of working in the computer software industry. Skilled in Analytical Skills, Microsoft Excel, Computer Science, Data Analysis, and Big Data. Strong support professional with a Bachelor's of Computer Science (Data Science) focused in Computer Science from Multimedia University.</p>
+                </div>
+
+                <div class="col">
+                    <h3>Office <div class="underline"><span></span></div></h3>
+                    <p>Jalan Puteri 666</p>
+                    <p>Bandar Puteri Puchong</p>
+                    <p>Puchong, 47100 Selangor, Malaysia</p>
+                    <p class="email-id">inquries@devyeong.com</p>
+                    <h4>+60-12102726</h4>
+                </div>
+
+                <div class="col">
+                    <h3>Links <div class="underline"><span></span></div></h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Projects</a></li>
+                        <li><a href="">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Newsletter <div class="underline"><span></span></div></h3>
+                    <form>
+                        <i class="fas fa-envelope"></i>
+                        <input type="email" placeholder="Enter Your Email Address" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/koktung.yeong"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/PANDA2827Y"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.linkedin.com/in/steveyeong/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/STEVEYEONG"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <hr>
+            <p class="copyright">Steve Yeong © 2021 - All rights reserved</p>
+        </footer>
+
+        <script>
+            var btn = document.getElementById("btn");
+            var light = document.getElementById("light");
+
+            function toggleBtn() {
+                btn.classList.toggle("active");
+                light.classList.toggle("on");
+            }
+        </script>
+
+        <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+
+            })
+
+        </script>
+    </body>
+    
+</html>
